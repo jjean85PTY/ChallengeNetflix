@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-23T21:43:32.034Z",
+        "line": 3,
+        "name": "Open netflix page and then print the title and URL",
+        "description": "",
+        "id": "open-netflix-page--print-the-title-then-print-the-page-url;open-netflix-page-and-then-print-the-title-and-url",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4364179600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is open Netflix home page",
+            "match": {
+              "location": "page.netflixTest.user_is_open_netflix_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132345700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "maximize the page",
+            "match": {
+              "location": "page.netflixTest.maximize_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3628500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the page loaded",
+            "match": {
+              "location": "page.netflixTest.the_page_loaded()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52317600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the title is print",
+            "match": {
+              "location": "page.netflixTest.the_title_is_print()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185599600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the URL is print",
+            "match": {
+              "location": "page.netflixTest.the_url_is_print()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "open netflix page, print the title then print the page URL",
+    "description": "",
+    "id": "open-netflix-page--print-the-title-then-print-the-page-url",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/netflix.feature",
+    "tags": []
+  }
+]
